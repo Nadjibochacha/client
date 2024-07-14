@@ -1,0 +1,40 @@
+#contact .content{
+    background: rgb(243, 244, 255);
+    border-top:5px  solid rgb(255, 196, 0);
+    border-radius: 7px;
+    box-shadow: 0 0 8px black;
+    
+}
+@media (max-width: 674px) {
+    #contact h1{
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+}
+
+#contact .content h1{
+    font-weight: 800;
+    font-size: 3rem;
+    color: rgb(255, 196, 0);
+    text-align: start;
+    letter-spacing: 0.04rem;
+    margin-left: 15px;
+}
+#contact .content span{
+    font-weight: 500;
+    font-size: 1.2rem;
+    letter-spacing: 0.03rem;
+}
+
+#contact .content input, #contact .content textarea{
+    background: transparent;
+    border: none;
+    font-size: 1.1rem;
+    border-bottom: 2px solid gray;
+    transition: all 0.3s ease-in;
+}
+
+#contact .content input:focus, #contact .content textarea:focus{
+    outline: none;
+    border-bottom: 2px solid rgb(255, 196, 0);
+}

@@ -1,0 +1,71 @@
+#check{
+    background: rgb(212, 212, 212);
+}
+#check .container{
+    border-top: 7px solid rgb(255, 196, 0);
+    border-radius: 7px;
+}
+#check .container .title{
+    border-bottom: 1px solid rgb(184, 184, 184);
+}
+#check .container .title h1{
+    text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+}
+#check .container .title p{
+    color: gray;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+
+}
+
+#check .container .content .col-md-6{
+    text-align: start;
+    padding-left: 10px;
+}
+
+#check .container .content .col-md-6 h3, #check .container .content .bill h3{
+    text-transform: capitalize;
+    font-size: 2rem;
+    letter-spacing: 0.06rem;
+    font-weight: 700;
+}
+#check .container .content label{
+    margin-left: 10px;
+    font-size: 1.2rem;
+}
+
+#check .container .content .col-md-6 input, #check .container .content select{
+    font-size: 1.1rem;
+    transition: all 0.3s ease-out;
+}
+#check .container .content .col-md-6 input:focus, #check .container .content select:focus{
+    outline: none;
+    box-shadow: 0 0 5px rgb(255, 196, 0);
+    border-color: rgb(255, 196, 0);
+}
+
+#check .content .bill{
+    text-align: start;
+}
+
+#check .content .bill table{
+    text-align: center;
+    border: 2px solid rgb(184, 184, 184);
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+#check .container .content .bill table thead{
+    text-transform: capitalize;
+    border-bottom: 1px solid rgb(184, 184, 184);
+}
+
+#check .container .content .bill tfoot{
+    text-transform: capitalize;
+    border-top: 1px solid rgb(184, 184, 184);
+    margin-top: 10px;
+}
