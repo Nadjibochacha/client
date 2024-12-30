@@ -36,7 +36,7 @@ const Footer = () => {
       </div>
       <div className="row">
         <div className="col-12 text-center border-top border-secondary pt-2">
-            <p>copyright &copy; {date.getFullYear()} : <a href="https://www.proware.tech">Med dev</a></p>
+            <p>copyright &copy; {date.getFullYear()} : <a href="https://nadjib-chacha.vercel.app/">Med dev</a></p>
         </div>
       </div>
     </div>
